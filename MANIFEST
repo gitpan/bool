@@ -2,7 +2,7 @@ Changes
 example/01_default.pl
 example/02_bool.pl
 example/03_hash.pl
-lib/Bool.pm
+lib/bool.pm
 MANIFEST			This list of files
 README
 t/01_default_import.t

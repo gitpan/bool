@@ -1,4 +1,4 @@
-package Bool; ## no critic (TidyCode)
+package bool; ## no critic (Capitalization TidyCode)
 
 use strict;
 use warnings;
@@ -6,7 +6,7 @@ use Carp qw(confess);
 use Const::Fast;
 use Universal::Ref qw(ref);
 
-our $VERSION = '0.000_01';
+our $VERSION = '0.001';
 
 const my $TRUE  => ! 0;
 const my $FALSE => ! 1;
@@ -71,25 +71,25 @@ __END__
 
 =head1 NAME
 
-Bool - Boolean constants and modifier
+bool - Boolean constants and modifier
 
 =head1 VERSION
 
-0.000_01
+0.001
 
 =head1 SYNOPSIS
 
-    use Bool; # default import
+    use bool; # default import
 
-    use Bool qw(bool $TRUE $FALSE); # default import full written as list
+    use bool qw(bool $TRUE $FALSE); # default import full written as list
 
-    use Bool { # default import written in hash notation
+    use bool { # default import written in hash notation
         bool  => 'bool',
         true  => '$TRUE',
         false => '$FALSE',
     };
 
-    use Bool {
+    use bool {
         bool  => 'boolean',              # bool  imported as boolean
         true  => [ qw( $TRUE  TRUE  ) ], # true  imported as $TRUE  and TRUE
         false => [ qw( $FALSE FALSE ) ], # false imported as $FALSE and FALSE

@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 # import configuration with hash reference
-use Bool {
+use bool {
     bool  => 'boolean',
     true  => [ qw( $MY_TRUE  MY_TRUE  ) ],
     false => [ qw( $MY_FALSE MY_FALSE ) ],

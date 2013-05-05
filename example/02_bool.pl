@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-use Bool qw(bool $TRUE $FALSE); # list import
+use bool qw(bool $TRUE $FALSE); # list import
 
 our $VERSION = 0;
 

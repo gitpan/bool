@@ -8,7 +8,7 @@ use Test::NoWarnings;
 use Test::Differences;
 
 BEGIN {
-    use_ok 'Bool';
+    use_ok 'bool';
 }
 
 # the constants

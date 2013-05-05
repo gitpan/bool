@@ -1,5 +1,5 @@
 {
-   "abstract" : "Bool - Boolean constants and modifier",
+   "abstract" : "bool - Boolean constants and modifier",
    "author" : [
       "Steffen Winkler <steffenw at cpan.org>"
    ],
@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Bool",
+   "name" : "bool",
    "prereqs" : {
       "build" : {
          "requires" : {
@@ -41,16 +41,16 @@
       }
    },
    "provides" : {
-      "Bool" : {
-         "file" : "lib/Bool.pm",
-         "version" : "0.000_01"
+      "bool" : {
+         "file" : "lib/bool.pm",
+         "version" : "0.001"
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "license" : [
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.000_01"
+   "version" : "0.001"
 }

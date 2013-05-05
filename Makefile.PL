@@ -3,8 +3,8 @@ require 5.006;
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-  'NAME' => 'Bool',
-  'VERSION_FROM' => 'lib/Bool.pm',
+  'NAME' => 'bool',
+  'VERSION_FROM' => 'lib/bool.pm',
   'PREREQ_PM' => {
                    'Carp' => 0,
                    'Const::Fast' => 0,

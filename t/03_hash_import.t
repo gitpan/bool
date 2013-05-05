@@ -7,7 +7,7 @@ use Test::More tests => 11;
 use Test::NoWarnings;
 
 BEGIN {
-    use_ok Bool => {
+    use_ok bool => {
         bool  => 'boolean',
         true  => [ qw( TRUE  $TRUE  YES $YES ) ],
         false => [ qw( FALSE $FALSE NO  $NO ) ],

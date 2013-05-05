@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-use Bool; # import with defaults
+use bool; # import with defaults
 
 our $VERSION = 0;
 

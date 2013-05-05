@@ -1,5 +1,5 @@
 ---
-abstract: 'Bool - Boolean constants and modifier'
+abstract: 'bool - Boolean constants and modifier'
 author:
   - 'Steffen Winkler <steffenw at cpan.org>'
 build_requires:
@@ -15,11 +15,11 @@ license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: Bool
+name: bool
 provides:
-  Bool:
-    file: lib/Bool.pm
-    version: 0.000_01
+  bool:
+    file: lib/bool.pm
+    version: 0.001
 recommends:
   Test::Pod: 1.14
   Test::Pod::Coverage: 1.04
@@ -30,4 +30,4 @@ requires:
   version: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.000_01
+version: 0.001
