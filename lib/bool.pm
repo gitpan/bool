@@ -4,9 +4,8 @@ use strict;
 use warnings;
 use Carp qw(confess);
 use Const::Fast;
-use Universal::Ref qw(ref);
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 const my $TRUE  => ! 0;
 const my $FALSE => ! 1;
@@ -75,7 +74,7 @@ bool - Boolean constants and modifier
 
 =head1 VERSION
 
-0.001
+0.002
 
 =head1 SYNOPSIS
 
@@ -223,8 +222,6 @@ nothing
 L<Carp|Carp>
 
 L<Const::Fast|Const::Fast>
-
-L<Universal::Ref|Universal::Ref>
 
 =head1 INCOMPATIBILITIES
 

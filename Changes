@@ -1,4 +1,7 @@
 Revision history for Perl extension bool.
 
+0.002  Sun May  5 09:40:31 2013
+- removed unneeded use
+
 0.001  Sun May  5 07:06:25 2013
 - first release
